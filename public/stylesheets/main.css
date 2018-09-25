@@ -2,8 +2,31 @@ body {
 	font-family: 'Muli', sans-serif;
 }
 
+#avatar {
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+strong {
+	color:  #3D9970;
+}
+
 #info {
 	float: right;
+}
+
+#blurb p{
+	font-size: 1.2em;
+	padding: 15px;
 }
 
 .divider {
@@ -30,7 +53,9 @@ h1, h2 {
 }
 
 h1 {
+	font-size: 4em;
 	padding: 20px 0;
+	
 }
 
 #info a:hover {

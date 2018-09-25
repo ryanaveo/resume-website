@@ -5,15 +5,15 @@ var data = [
 	{
 		name: "Music Flyer",
 		image: "/images/musicflyer.png",
-		description: "A web app created to help share new bands or artists with friends. Used this app to learn more about front end development and using API's and frameworks.",
+		description: "A web app created to help share new bands or artists with friends. Created to learn more about front end development and building a web app with a team. I learned how the front end connects to the back end and how templates work. A user can search for any artist on the landing page and the app will generate a flyer of that artist that contains their picture, a playlist of their top tracks, and three related artists. Later, I added web vr functionality with Aframe that allowed users to view the artists' picture along with social media links in VR.",
 		github: "https://github.com/ryanaveo/music-flyer-VR",
 		skills: []
 	},
 	{
 		name: "Fit Your Genes",
 		image: "/images/fityourgenes.png",
-		description: "A web app that generates exercise/dietary suggestions based on user’s genome sequence. Created during SD Hacks 2017. This was my first exposure back end development, and I found it fun!",
-		github: "https://github.com/ryanaveo/music-flyer-VR",
+		description: "A web app that generates exercise/dietary suggestions based on user’s genome sequence. Created during SD Hacks 2017. This was my first exposure back end development, and I found it fun! I used flask to render HTML files and create the routes. I also learned how to make API calls with the Genome Link API to get relevant information to a user's health based on their genome sequence. The hackathon community and my team was overwhelmingly supportive whenever I had a question about the tools that we were using and it made learning back end development even more enjoyable. The hardest part was understanding how authentication worked. However after digging through the documentation of the API and talking it over with our teammates, we managed to get it working before presenting.",
+		github: "https://github.com/michellewoohoo/SDHacks",
 		skills: []
 	},
 	{
