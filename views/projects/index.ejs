@@ -1,15 +1,26 @@
 <%include ../partials/header %>
-<div class="containter-fluid">
+<div class="containter">
 	<%projects.forEach(function(project) { %>
 		<div class="row project">
 			<div class="col-4">
-				<img src="<%=project.image%>">
-			</div>
+				<div class="hovereffect">
+        			<img class="img-responsive" src="<%=project.image%>">
+            		<div class="overlay">
+                		<h2>Github</h2>
+						<p>
+							<a href="<%=project.github%>"><i class="fab fa-github-square fa-5x"></i></a>
+						</p>
+            		</div>
+    			</div>
+    		</div>
 			<div class="col-8">
-				<h2><%=project.name%></h2>
+				<h2 class="project-name"><%=project.name%></h2>
 				<br>
 				<p><%=project.description%></p>
 			</div>
+		</div>
+		<div class="row">
+				<hr class="divider"></hr>
 		</div>
 	<%})%>
 </div>
