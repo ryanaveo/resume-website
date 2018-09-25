@@ -1,0 +1,16 @@
+<%include ../partials/header %>
+<div class="containter-fluid">
+	<%projects.forEach(function(project) { %>
+		<div class="row">
+			<div class="col-4">
+				<img src="<%=project.image%>">
+			</div>
+			<div class="col-8">
+				<h2><%=project.name%></h2>
+				<br>
+				<p><%=project.description%></p>
+			</div>
+		</div>
+	<%})%>
+</div>
+<%include ../partials/footer %>

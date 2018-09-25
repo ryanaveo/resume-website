@@ -6,4 +6,6 @@ const projectSchema = new mongoose.Schema({
 	description: String,
 	github: String,
 	skills: Array
-})
+});
+
+module.exports = mongoose.model("Project", projectSchema);
