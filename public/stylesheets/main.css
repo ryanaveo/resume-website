@@ -55,7 +55,12 @@ h1, h2 {
 h1 {
 	font-size: 4em;
 	padding: 20px 0;
-	
+	animation: 1.2s move;
+}
+
+@keyframes move {
+	from { margin-left: -100px; }
+  	to { margin-left: 0px; }
 }
 
 #info a:hover {
