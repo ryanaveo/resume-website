@@ -1,7 +1,19 @@
+body {
+	font-family: 'Muli', sans-serif;
+}
+
 #info {
 	float: right;
 }
 
 img {
 	width: 100%;
+}
+
+h1, h2 {
+    font-family: 'Ovo', serif;
+}
+
+.row.project {
+	padding: 20px 0;
 }
