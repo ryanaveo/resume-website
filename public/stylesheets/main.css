@@ -24,9 +24,35 @@ strong {
 	float: right;
 }
 
-#blurb p{
-	font-size: 1.2em;
+#blurb p {
+	font-size: 1.7em;
 	padding: 15px;
+}
+
+hr.style-two { 
+	border: 0; 
+	height: 1px; 
+	background-image: 
+	linear-gradient(to right, 
+	rgba(0, 0, 0, 0), 
+	rgba(0, 0, 0, 0.75), 
+	rgba(0, 0, 0, 0));
+	animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.project-name {
+	color: #3D9970;
+	font-weight: 700;
+	animation: fadein 2s;
+}
+
+.project-description {
+	font-size: 25px;
 }
 
 .divider {
@@ -40,8 +66,13 @@ strong {
 .img-responsive {
 	width: 100%;
 	padding: 10px;
-	object-fit: cover;
-	height: 300px;
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	/* bring your own prefixes */
+  	transform: translate(-50%, -50%);
+	/*object-fit: cover;*/
+	height: 300px;*/
 }
 
 h1, h2 {
@@ -74,8 +105,8 @@ h1 {
 .row.project {
 	padding: 20px 0;
 	margin: 10px 0;
-	max-height: 500px;
-	overflow: scroll;
+/*	max-height: 500px;
+	overflow: scroll;*/
 }
 
 .hovereffect {
