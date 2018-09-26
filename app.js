@@ -3,10 +3,11 @@ const express  = require("express"),
       port     = process.env.PORT || 8080,
       Project  = require("./models/project"),
       seedDB = require("./projectseeds"),
+      DBurl    = process.env.DATABASEURL || "mongodb://localhost/resume_projects",
       mongoose = require("mongoose");
 
 // DATABASE
-mongoose.connect("mongodb://localhost/resume_projects");
+mongoose.connect(process.env.DATABASEURL);
 
 
 app.set("view engine", "ejs");
