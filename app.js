@@ -6,8 +6,9 @@ const express  = require("express"),
       DBurl    = process.env.DATABASEURL || "mongodb://localhost/resume_projects",
       mongoose = require("mongoose");
 
+console.log(port);
 // DATABASE
-mongoose.connect(process.env.DATABASEURL);
+mongoose.connect(DBurl);
 
 
 app.set("view engine", "ejs");
